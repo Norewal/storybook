@@ -7,7 +7,7 @@ module.exports = {
     "storybook-dark-mode",
     "@storybook/addon-a11y",
   ],
-  staticDirs: ["../assets"],
+  staticDirs: ["./assets"],
   framework: "@storybook/angular",
   core: {
     builder: "@storybook/builder-webpack5",
