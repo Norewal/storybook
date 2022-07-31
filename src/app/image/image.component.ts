@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ImageComponent implements OnInit {
   @Input()
-  imgSrc: string = '/assets/_DSC6267.jpg';
+  imgSrc: string = 'assets/_DSC6267.jpg';
 
   @Input()
   altTxt?: string = 'Pondicherry French Hotel';
