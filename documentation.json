@@ -270,7 +270,7 @@
         },
         {
             "name": "ImageComponent",
-            "id": "component-ImageComponent-2c88ebf0daac8372a07acb79d66b67d1f99119e1514069975fddf80a3f644ed078a8182abfe9287f2db9664ca9f888bd9e44fda7ccb69c7fcecd559673179080",
+            "id": "component-ImageComponent-29687fae85294f8bc8c882fea0373d0d77d410123f7f34c1f3dd8d3f7974b7e50264d07c847b4d88a185fbc20e67ae7025bfcf92128e48c83f7fcdedeac38e14",
             "file": "src/app/image/image.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -316,7 +316,7 @@
                 },
                 {
                     "name": "imgSrc",
-                    "defaultValue": "'assets/_DSC6267.jpg'",
+                    "defaultValue": "'./assets/_DSC6267.jpg'",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "line": 10,
@@ -345,7 +345,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-image',\r\n  templateUrl: './image.component.html',\r\n  styleUrls: ['./image.component.scss'],\r\n})\r\nexport class ImageComponent implements OnInit {\r\n  @Input()\r\n  imgSrc: string = 'assets/_DSC6267.jpg';\r\n\r\n  @Input()\r\n  altTxt?: string = 'Pondicherry French Hotel';\r\n\r\n  @Input()\r\n  figCaptionTxt?: string =\r\n    'The French Quarter or White Town area in Pondicherry is filled with elegant colonial mansions in the midst of tree-lined boulevards, named on French streets beginning with \"rue\", numerous parks and charming cafés.';\r\n\r\n  @Input()\r\n  imgOpacity?: number = 1;\r\n\r\n  constructor() {}\r\n\r\n  ngOnInit(): void {}\r\n}\r\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-image',\r\n  templateUrl: './image.component.html',\r\n  styleUrls: ['./image.component.scss'],\r\n})\r\nexport class ImageComponent implements OnInit {\r\n  @Input()\r\n  imgSrc: string = './assets/_DSC6267.jpg';\r\n\r\n  @Input()\r\n  altTxt?: string = 'Pondicherry French Hotel';\r\n\r\n  @Input()\r\n  figCaptionTxt?: string =\r\n    'The French Quarter or White Town area in Pondicherry is filled with elegant colonial mansions in the midst of tree-lined boulevards, named on French streets beginning with \"rue\", numerous parks and charming cafés.';\r\n\r\n  @Input()\r\n  imgOpacity?: number = 1;\r\n\r\n  constructor() {}\r\n\r\n  ngOnInit(): void {}\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
