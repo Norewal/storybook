@@ -1,4 +1,5 @@
 import { setCompodocJson } from "@storybook/addon-docs/angular";
+import '@storybook/addon-console';
 import docJson from "../documentation.json";
 setCompodocJson(docJson);
 
