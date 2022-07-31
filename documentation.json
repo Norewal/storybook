@@ -270,7 +270,7 @@
         },
         {
             "name": "ImageComponent",
-            "id": "component-ImageComponent-a6417ac9baf0a2001718d7c85c1addd16447ae358b8992360295ef54313fa9c4026793a08f8ebd07653e2143a0c4cc219bce1df6895361cde5d4b561659b6c2a",
+            "id": "component-ImageComponent-91402da57b079e2fced206480f8632ba6123b008c86c55debefa7c746bdfe8ad96328bbba8c521bf312bbd6fd21436f5c0e36ea67fb9f8da50f3e0a110102651",
             "file": "src/app/image/image.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -345,7 +345,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-image',\n  templateUrl: './image.component.html',\n  styleUrls: ['./image.component.scss'],\n})\nexport class ImageComponent implements OnInit {\n  @Input()\n  imgSrc: string = '/assets/_DSC6267.jpg';\n\n  @Input()\n  altTxt?: string = 'Pondicherry French Hotel';\n\n  @Input()\n  figCaptionTxt?: string =\n    'The French Quarter or White Town area in Pondicherry is filled with elegant colonial mansions in the midst of tree-lined boulevards, named on French streets beginning with \"rue\", numerous parks and charming cafés.';\n\n  @Input()\n  imgOpacity?: number = 1;\n\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-image',\r\n  templateUrl: './image.component.html',\r\n  styleUrls: ['./image.component.scss'],\r\n})\r\nexport class ImageComponent implements OnInit {\r\n  @Input()\r\n  imgSrc: string = '/assets/_DSC6267.jpg';\r\n\r\n  @Input()\r\n  altTxt?: string = 'Pondicherry French Hotel';\r\n\r\n  @Input()\r\n  figCaptionTxt?: string =\r\n    'The French Quarter or White Town area in Pondicherry is filled with elegant colonial mansions in the midst of tree-lined boulevards, named on French streets beginning with \"rue\", numerous parks and charming cafés.';\r\n\r\n  @Input()\r\n  imgOpacity?: number = 1;\r\n\r\n  constructor() {}\r\n\r\n  ngOnInit(): void {}\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -365,7 +365,7 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<figure>\n  <img\n    [ngStyle]=\"{ opacity: imgOpacity }\"\n    src=\"{{ imgSrc }}\"\n    alt=\"{{ altTxt }}\"\n    style=\"width: 100%\"\n  />\n  <figcaption *ngIf=\"figCaptionTxt && figCaptionTxt.trim().length > 0\">\n    {{ figCaptionTxt }}\n  </figcaption>\n</figure>\n"
+            "templateData": "<figure>\r\n  <img\r\n    [ngStyle]=\"{ opacity: imgOpacity }\"\r\n    src=\"{{ imgSrc }}\"\r\n    alt=\"{{ altTxt }}\"\r\n    style=\"width: 100%\"\r\n  />\r\n  <figcaption *ngIf=\"figCaptionTxt && figCaptionTxt.trim().length > 0\">\r\n    {{ figCaptionTxt }}\r\n  </figcaption>\r\n</figure>\r\n"
         },
         {
             "name": "PageComponent",
